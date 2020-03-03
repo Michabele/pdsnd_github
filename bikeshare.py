@@ -16,6 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+	
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     i=0
     while i < 1:
@@ -56,6 +57,7 @@ def get_filters():
             print("Sorry. That was not a correct option. Try again!")
             print('-'*40)
             j=0
+			
     # get user input for day of week (all, monday, tuesday, ... sunday)
     i=0
     j=0
@@ -82,7 +84,6 @@ def get_filters():
             print("Sorry. That was not a correct option. Try again!")
             print('-'*40)
             j=0
-
 
     print('-'*40)
     return city, month, day
@@ -208,7 +209,6 @@ def user_stats(df):
     count_gender = df["Gender"].value_counts()
     print("\nThe counts of the Genders are: ")
     print(count_gender)
-
 
     # Display earliest, most recent, and most common year of birth
     earliest=df["Birth Year"].min()
