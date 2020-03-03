@@ -2,7 +2,8 @@
 This README file was created on March 03, 2020
 
 ### Project Title
-**Post your Bikeshare-Project on GitHub** 
+**Post your Bikeshare-Project on GitHub**
+
 Project 3 of the Udacity Nanodegree **Programming for Data Science**
 
 ### Description
@@ -24,11 +25,12 @@ Once the user has decided which city to look at and which filter to use, the dat
 ### Files used
 To use the functionality of this project you need the mainfile:
 * bikeshare.py
+
 and some datafiles as input:
 * chicago.csv
 * washington.csv
 * new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+:+1: :rocket:
 
